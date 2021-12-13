@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112CDAB32766EE6F00850500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CDAB22766EE6F00850500 /* AppDelegate.swift */; };
+		112CDAB52766EE6F00850500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CDAB42766EE6F00850500 /* SceneDelegate.swift */; };
+		112CDAB72766EE6F00850500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CDAB62766EE6F00850500 /* ViewController.swift */; };
+		112CDABA2766EE6F00850500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112CDAB82766EE6F00850500 /* Main.storyboard */; };
+		112CDABC2766EE7600850500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112CDABB2766EE7600850500 /* Assets.xcassets */; };
+		112CDABF2766EE7600850500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112CDABD2766EE7600850500 /* LaunchScreen.storyboard */; };
+		112CDACA2766EE7700850500 /* cpsc_411_reservationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CDAC92766EE7700850500 /* cpsc_411_reservationsTests.swift */; };
+		112CDAD52766EE7700850500 /* cpsc_411_reservationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CDAD42766EE7700850500 /* cpsc_411_reservationsUITests.swift */; };
+		112CDAE32766EEF700850500 /* AddNewReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112CDAE22766EEF700850500 /* AddNewReservationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		112CDAC62766EE7700850500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 112CDAA72766EE6F00850500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112CDAAE2766EE6F00850500;
+			remoteInfo = "cpsc 411 reservations";
+		};
+		112CDAD12766EE7700850500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 112CDAA72766EE6F00850500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112CDAAE2766EE6F00850500;
+			remoteInfo = "cpsc 411 reservations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112CDAAF2766EE6F00850500 /* cpsc 411 reservations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cpsc 411 reservations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		112CDAB22766EE6F00850500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		112CDAB42766EE6F00850500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		112CDAB62766EE6F00850500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		112CDAB92766EE6F00850500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		112CDABB2766EE7600850500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		112CDABE2766EE7600850500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		112CDAC02766EE7600850500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112CDAC52766EE7700850500 /* cpsc 411 reservationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cpsc 411 reservationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		112CDAC92766EE7700850500 /* cpsc_411_reservationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpsc_411_reservationsTests.swift; sourceTree = "<group>"; };
+		112CDACB2766EE7700850500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112CDAD02766EE7700850500 /* cpsc 411 reservationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cpsc 411 reservationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		112CDAD42766EE7700850500 /* cpsc_411_reservationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpsc_411_reservationsUITests.swift; sourceTree = "<group>"; };
+		112CDAD62766EE7700850500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112CDAE22766EEF700850500 /* AddNewReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewReservationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112CDAAC2766EE6F00850500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112CDAC22766EE7700850500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112CDACD2766EE7700850500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112CDAA62766EE6F00850500 = {
+			isa = PBXGroup;
+			children = (
+				112CDAB12766EE6F00850500 /* cpsc 411 reservations */,
+				112CDAC82766EE7700850500 /* cpsc 411 reservationsTests */,
+				112CDAD32766EE7700850500 /* cpsc 411 reservationsUITests */,
+				112CDAB02766EE6F00850500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		112CDAB02766EE6F00850500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				112CDAAF2766EE6F00850500 /* cpsc 411 reservations.app */,
+				112CDAC52766EE7700850500 /* cpsc 411 reservationsTests.xctest */,
+				112CDAD02766EE7700850500 /* cpsc 411 reservationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		112CDAB12766EE6F00850500 /* cpsc 411 reservations */ = {
+			isa = PBXGroup;
+			children = (
+				112CDAB22766EE6F00850500 /* AppDelegate.swift */,
+				112CDAE22766EEF700850500 /* AddNewReservationViewController.swift */,
+				112CDAB42766EE6F00850500 /* SceneDelegate.swift */,
+				112CDAB62766EE6F00850500 /* ViewController.swift */,
+				112CDAB82766EE6F00850500 /* Main.storyboard */,
+				112CDABB2766EE7600850500 /* Assets.xcassets */,
+				112CDABD2766EE7600850500 /* LaunchScreen.storyboard */,
+				112CDAC02766EE7600850500 /* Info.plist */,
+			);
+			path = "cpsc 411 reservations";
+			sourceTree = "<group>";
+		};
+		112CDAC82766EE7700850500 /* cpsc 411 reservationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				112CDAC92766EE7700850500 /* cpsc_411_reservationsTests.swift */,
+				112CDACB2766EE7700850500 /* Info.plist */,
+			);
+			path = "cpsc 411 reservationsTests";
+			sourceTree = "<group>";
+		};
+		112CDAD32766EE7700850500 /* cpsc 411 reservationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				112CDAD42766EE7700850500 /* cpsc_411_reservationsUITests.swift */,
+				112CDAD62766EE7700850500 /* Info.plist */,
+			);
+			path = "cpsc 411 reservationsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		112CDAAE2766EE6F00850500 /* cpsc 411 reservations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112CDAD92766EE7700850500 /* Build configuration list for PBXNativeTarget "cpsc 411 reservations" */;
+			buildPhases = (
+				112CDAAB2766EE6F00850500 /* Sources */,
+				112CDAAC2766EE6F00850500 /* Frameworks */,
+				112CDAAD2766EE6F00850500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cpsc 411 reservations";
+			productName = "cpsc 411 reservations";
+			productReference = 112CDAAF2766EE6F00850500 /* cpsc 411 reservations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		112CDAC42766EE7700850500 /* cpsc 411 reservationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112CDADC2766EE7700850500 /* Build configuration list for PBXNativeTarget "cpsc 411 reservationsTests" */;
+			buildPhases = (
+				112CDAC12766EE7700850500 /* Sources */,
+				112CDAC22766EE7700850500 /* Frameworks */,
+				112CDAC32766EE7700850500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112CDAC72766EE7700850500 /* PBXTargetDependency */,
+			);
+			name = "cpsc 411 reservationsTests";
+			productName = "cpsc 411 reservationsTests";
+			productReference = 112CDAC52766EE7700850500 /* cpsc 411 reservationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		112CDACF2766EE7700850500 /* cpsc 411 reservationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112CDADF2766EE7700850500 /* Build configuration list for PBXNativeTarget "cpsc 411 reservationsUITests" */;
+			buildPhases = (
+				112CDACC2766EE7700850500 /* Sources */,
+				112CDACD2766EE7700850500 /* Frameworks */,
+				112CDACE2766EE7700850500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112CDAD22766EE7700850500 /* PBXTargetDependency */,
+			);
+			name = "cpsc 411 reservationsUITests";
+			productName = "cpsc 411 reservationsUITests";
+			productReference = 112CDAD02766EE7700850500 /* cpsc 411 reservationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		112CDAA72766EE6F00850500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					112CDAAE2766EE6F00850500 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					112CDAC42766EE7700850500 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 112CDAAE2766EE6F00850500;
+					};
+					112CDACF2766EE7700850500 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 112CDAAE2766EE6F00850500;
+					};
+				};
+			};
+			buildConfigurationList = 112CDAAA2766EE6F00850500 /* Build configuration list for PBXProject "cpsc 411 reservations" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 112CDAA62766EE6F00850500;
+			productRefGroup = 112CDAB02766EE6F00850500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112CDAAE2766EE6F00850500 /* cpsc 411 reservations */,
+				112CDAC42766EE7700850500 /* cpsc 411 reservationsTests */,
+				112CDACF2766EE7700850500 /* cpsc 411 reservationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		112CDAAD2766EE6F00850500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112CDABF2766EE7600850500 /* LaunchScreen.storyboard in Resources */,
+				112CDABC2766EE7600850500 /* Assets.xcassets in Resources */,
+				112CDABA2766EE6F00850500 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112CDAC32766EE7700850500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112CDACE2766EE7700850500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		112CDAAB2766EE6F00850500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112CDAE32766EEF700850500 /* AddNewReservationViewController.swift in Sources */,
+				112CDAB72766EE6F00850500 /* ViewController.swift in Sources */,
+				112CDAB32766EE6F00850500 /* AppDelegate.swift in Sources */,
+				112CDAB52766EE6F00850500 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112CDAC12766EE7700850500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112CDACA2766EE7700850500 /* cpsc_411_reservationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112CDACC2766EE7700850500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112CDAD52766EE7700850500 /* cpsc_411_reservationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		112CDAC72766EE7700850500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112CDAAE2766EE6F00850500 /* cpsc 411 reservations */;
+			targetProxy = 112CDAC62766EE7700850500 /* PBXContainerItemProxy */;
+		};
+		112CDAD22766EE7700850500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112CDAAE2766EE6F00850500 /* cpsc 411 reservations */;
+			targetProxy = 112CDAD12766EE7700850500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		112CDAB82766EE6F00850500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112CDAB92766EE6F00850500 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		112CDABD2766EE7600850500 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112CDABE2766EE7600850500 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		112CDAD72766EE7700850500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		112CDAD82766EE7700850500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112CDADA2766EE7700850500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cpsc 411 reservations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahdisabbouri.cpsc-411-reservations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		112CDADB2766EE7700850500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cpsc 411 reservations/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahdisabbouri.cpsc-411-reservations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		112CDADD2766EE7700850500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cpsc 411 reservationsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahdisabbouri.cpsc-411-reservationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cpsc 411 reservations.app/cpsc 411 reservations";
+			};
+			name = Debug;
+		};
+		112CDADE2766EE7700850500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cpsc 411 reservationsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahdisabbouri.cpsc-411-reservationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cpsc 411 reservations.app/cpsc 411 reservations";
+			};
+			name = Release;
+		};
+		112CDAE02766EE7700850500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cpsc 411 reservationsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahdisabbouri.cpsc-411-reservationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cpsc 411 reservations";
+			};
+			name = Debug;
+		};
+		112CDAE12766EE7700850500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cpsc 411 reservationsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mahdisabbouri.cpsc-411-reservationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cpsc 411 reservations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		112CDAAA2766EE6F00850500 /* Build configuration list for PBXProject "cpsc 411 reservations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112CDAD72766EE7700850500 /* Debug */,
+				112CDAD82766EE7700850500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112CDAD92766EE7700850500 /* Build configuration list for PBXNativeTarget "cpsc 411 reservations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112CDADA2766EE7700850500 /* Debug */,
+				112CDADB2766EE7700850500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112CDADC2766EE7700850500 /* Build configuration list for PBXNativeTarget "cpsc 411 reservationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112CDADD2766EE7700850500 /* Debug */,
+				112CDADE2766EE7700850500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112CDADF2766EE7700850500 /* Build configuration list for PBXNativeTarget "cpsc 411 reservationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112CDAE02766EE7700850500 /* Debug */,
+				112CDAE12766EE7700850500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 112CDAA72766EE6F00850500 /* Project object */;
+}
